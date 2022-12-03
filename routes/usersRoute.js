@@ -21,7 +21,7 @@ router.post("/login", async (req, res) => {
     if (user) {
       res.send(user);
     } else {
-      return res.status(400).json({ message: "invalid credentials" });
+      return res.status(400).json({ message: "Akun anda tidak ada" });
     }
   } catch (error) {
     return res.status(400).json(error);
