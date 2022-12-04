@@ -53,7 +53,7 @@ function Register() {
 
             <Button htmlType="submit" className='mb-3' >Register</Button> <br />
 
-            <Link to='/login' className='mt-3'>Already registered ? , Click here to login</Link>
+            <Link to='/login' className='mt-3'>Already registered? Click here to login</Link>
           </Form>
         </Col>
       </Row>
